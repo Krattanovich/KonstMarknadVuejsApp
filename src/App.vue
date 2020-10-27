@@ -6,16 +6,17 @@
     </div>
 
 
+
 </template>
 
 <script>
-    import Header from './components/Header.vue';
+    import HeaderTop from './components/Header.vue';
     import Home from './components/Home.vue';
 
     export default {
         name: 'app',
         components: {
-            Header,
+            HeaderTop,
             Home
         }
     };

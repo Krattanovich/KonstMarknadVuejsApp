@@ -1,19 +1,18 @@
 ﻿<template>
-    <header class="HeaderTop">
-        <h1>{{ headtxt }}</h1>
-    </header>
+    <div>
+        <h1>Topp</h1>
+
+    </div>
 </template>
 
 <script>
 
     export default {
         name: 'HeaderTop',
-        props: { headtxt: String }
 
-    }
-
+    };
 </script>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    
 </style>
