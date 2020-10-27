@@ -6,11 +6,7 @@
 </template>
 
 <script>
-
-    export default {
-        name: 'HeaderTop',
-
-    };
+    
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
