@@ -1,8 +1,7 @@
 <template>
     <div>
-        <h1>{{ msg }}</h1>
-        <p>Welcome to your new single-page application, built with <a href="https://vuejs.org" target="_blank">Vue.js</a>.</p>
-
+        <h1>Hej {{ user }}</h1>
+       
     </div>
 </template>
 
@@ -10,8 +9,11 @@
 
     export default {
         name: 'Home',
-        props: {
-            msg: String
+
+        data () {
+            return {
+                user: "Viktor"
+            }
         }
     };
 </script>

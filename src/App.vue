@@ -1,8 +1,7 @@
 <template >
     <div id="app" >
-        
-        <Header msg="Header text" />
-        <Home msg="Hello world!" />
+        <Header/>
+        <Home/>
     </div>
 
 
